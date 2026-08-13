@@ -159,6 +159,14 @@ JSON tags match the live wire (`postal_Code`, `flag_Icon`, `isVpn`, `asn_number`
 - HTTP 403: SDK sends `ipwho-go-sdk/1.0.0`.
 - Nil pointers: city and user-agent are often unset on anycast IPs.
 
+## Testing
+
+```bash
+IPWHO_API_KEY=your_key go run ./cmd/check
+```
+
+The live check lives in `cmd/check/test_ipwho.go` (it cannot sit next to `ipwho.go` at the repo root — that would mix `package main` and `package ipwho` in one directory).
+
 ## Changelog
 
 ### v1.0.0
