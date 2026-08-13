@@ -6,10 +6,11 @@ Official Go client for the [IPWho](https://www.ipwho.org) IP Intelligence API. O
 
 There is no extra registry: `go get` uses the GitHub module.
 
-- Product: [ipwho.org](https://www.ipwho.org)
-- API docs: [ipwho.org/docs](https://www.ipwho.org/docs)
-- Get an API key: [ipwho.org](https://www.ipwho.org)
-- Live API host: `https://api.ipwho.org`
+- Website: [https://www.ipwho.org](https://www.ipwho.org)
+- API docs: [https://www.ipwho.org/docs](https://www.ipwho.org/docs)
+- Get an API key: [https://www.ipwho.org](https://www.ipwho.org)
+- Live API: [https://api.ipwho.org](https://api.ipwho.org)
+- Source: [https://github.com/lavrox/SDK-IPWho-Go](https://github.com/lavrox/SDK-IPWho-Go)
 
 ## Installation
 
@@ -154,7 +155,7 @@ JSON tags match the live wire (`postal_Code`, `flag_Icon`, `isVpn`, `asn_number`
 
 ## Troubleshooting
 
-- Empty key: `ipwho: apiKey is required`. Key: [ipwho.org](https://www.ipwho.org).
+- Empty key: `ipwho: apiKey is required`. Key: [https://www.ipwho.org](https://www.ipwho.org).
 - HTTP 403: SDK sends `ipwho-go-sdk/1.0.0`.
 - Nil pointers: city and user-agent are often unset on anycast IPs.
 
@@ -162,7 +163,7 @@ JSON tags match the live wire (`postal_Code`, `flag_Icon`, `isVpn`, `asn_number`
 
 ### v1.0.0
 
-- `Lookup`, `Me`, `Bulk` matching [api.ipwho.org](https://api.ipwho.org)
+- `Lookup`, `Me`, `Bulk` matching [https://api.ipwho.org](https://api.ipwho.org)
 
 ## License
 
@@ -170,12 +171,11 @@ MIT License — see [LICENSE](LICENSE).
 
 ## Support
 
-- Documentation: [ipwho.org/docs](https://www.ipwho.org/docs)
-- Contact: [ipwho.org/contact](https://www.ipwho.org/contact)
-- GitHub Issues: [lavrox/SDK-IPWho-Go](https://github.com/lavrox/SDK-IPWho-Go/issues)
-- Website: [ipwho.org](https://www.ipwho.org)
+- Documentation: [https://www.ipwho.org/docs](https://www.ipwho.org/docs)
+- Contact: [https://www.ipwho.org/contact](https://www.ipwho.org/contact)
+- GitHub Issues: [https://github.com/lavrox/SDK-IPWho-Go/issues](https://github.com/lavrox/SDK-IPWho-Go/issues)
+- Website: [https://www.ipwho.org](https://www.ipwho.org)
 
 ---
 
-Product by [lavrox.com](https://lavrox.com)
-# SDK-IPWho-Go
+Product by [https://lavrox.com](https://lavrox.com)
