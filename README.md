@@ -1,6 +1,6 @@
 # IPWho ([ipwho.org](https://www.ipwho.org)) Go SDK
 
-[![Go version](https://img.shields.io/badge/go-1.21+-00ADD8.svg)](https://go.dev/) [![license](https://img.shields.io/github/license/lavrox/SDK-IPWho-Go?style=flat-square)](https://github.com/lavrox/SDK-IPWho-Go/blob/main/LICENSE)
+[![Go version](https://img.shields.io/badge/go-1.21+-00ADD8.svg)](https://go.dev/) [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/lavrox/SDK-IPWho-Go/blob/main/LICENSE)
 
 Official Go client for the [IPWho](https://www.ipwho.org) IP Intelligence API. One call returns the **full** payload: geolocation, timezone, flag, currency, connection (ASN/ISP), security, and user-agent when present.
 
