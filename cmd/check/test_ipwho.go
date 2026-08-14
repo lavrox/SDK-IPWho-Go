@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lavrox/SDK-IPWho-Go"
+	"github.com/lavrox/SDK-IPWho-IP-Geolocation-Go"
 )
 
 var pass, fail int

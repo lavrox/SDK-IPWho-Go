@@ -1,3 +1,3 @@
-module github.com/lavrox/SDK-IPWho-Go
+module github.com/lavrox/SDK-IPWho-IP-Geolocation-Go
 
 go 1.21

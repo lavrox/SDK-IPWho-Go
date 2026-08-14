@@ -1,8 +1,8 @@
 // go.mod (inline)
-// module github.com/lavrox/SDK-IPWho-Go
+// module github.com/lavrox/SDK-IPWho-IP-Geolocation-Go
 // go 1.21
 
-// Package ipwho provides a Go client for the IPWho IP Intelligence API.
+// Package ipwho provides a Go client for the IPWho IP Geolocation API.
 // API docs: https://api.ipwho.org
 package ipwho
 
@@ -409,7 +409,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/lavrox/SDK-IPWho-Go"
+	"github.com/lavrox/SDK-IPWho-IP-Geolocation-Go"
 )
 
 func main() {
